@@ -136,6 +136,9 @@ func (ps *Parser) CheckLimit(formula string) Errno {
 	if leftCount > rightCount {
 		err = fmt.Errorf("missing right parenthesis")
 	}
+	if err == nil {
+		return Pass
+	}
 	return SyntaxErr.WithErr(err)
 }
 
@@ -149,6 +152,9 @@ func (ps *Parser) CheckLiteralName(formula string, literalNames []string) Errno 
 		if find {
 			err = fmt.Errorf("【%s】they need operators between them", strings.Join(matchArr, ","))
 		}
+	}
+	if err == nil {
+		return Pass
 	}
 	return SyntaxErr.WithErr(err)
 }
