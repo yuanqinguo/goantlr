@@ -155,3 +155,6 @@ calcVisitor.CalculateForDebug("ROUND(10.1544, 1)")
 calcVisitor.CalculateForDebug("DATEDIF(\"1993-04-01\",\"2022-09-15\",\"YD\")")
 calcVisitor.CalculateForDebug(`FINDSTR("上海","深圳人民的夜晚，上海人民的上海滩")`)
 ```
+
+### 最后
+希望对有需要应用antlr4的同学有带来帮助
