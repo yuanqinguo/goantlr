@@ -100,7 +100,8 @@ https://xie.infoq.cn/article/40bfff1fbca1867991a1453ac
 
 ### 结构图
 
-![img](blob:https://test-c21k1x5ri5hp.feishu.cn/49382a0b-cc45-4d44-a0e4-8f9098bf13ca)
+![image](https://user-images.githubusercontent.com/12254995/229330239-9d11f336-1e9c-4aab-aebf-215549e34c74.png)
+
 
 ### 对象说明
 
